@@ -14,7 +14,7 @@ lock = threading.Lock()
 
 password_list = []
 
-with open('...txt', 'r', encoding='UTF-8') as file:
+with open('pwlist.txt', 'r', encoding='UTF-8') as file:
     for line in file:
         password_list.append(line.removesuffix('\n'))
 
