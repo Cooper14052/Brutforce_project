@@ -4,7 +4,7 @@ import threading
 THREADS_NUM = 30
 HOST = '...'
 
-port = 22
+port = 
 login = '...'
 
 right_pass = ''
