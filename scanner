@@ -15,7 +15,7 @@ def find_ports(host, ports):
         client.close()
 
 
-checked_ports = [i for i in range(1, 6001)]
+checked_ports = [i for i in range(1, 65536)]
 
 threads_list = list()
 
